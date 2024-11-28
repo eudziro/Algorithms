@@ -1,3 +1,3 @@
 all : kosaraiu.cc
-	rm -f *.o;
-	clang++ kosaraiu.cc -c
+	clang++ kosaraiu.cc -c;
+	rm -f *.o
