@@ -62,7 +62,7 @@ void Graph::addEdge(int u, int v, int w) {
 
 int main() {
     int V = 9; // Number of vertices
-    Graph g(V);
+    std::Graph g(V);
 
     g.addEdge(0, 1, 4);
     g.addEdge(0, 7, 8);
