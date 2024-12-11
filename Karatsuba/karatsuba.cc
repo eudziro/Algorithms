@@ -4,10 +4,6 @@
 
 using namespace std;
 
-// FOLLOWING TWO FUNCTIONS ARE COPIED FROM http://goo.gl/q0OhZ
-// Helper method: given two unequal sized bit strings, converts them to
-// same length by adding leading 0s in the smaller string. Returns the
-// the new length
 int makeEqualLength(string &str1, string &str2)
 {
     int len1 = str1.size();
@@ -26,7 +22,6 @@ int makeEqualLength(string &str1, string &str2)
     return len1; // If len1 >= len2
 }
 
-// The main function that adds two bit sequences and returns the addition
 string addBitStrings( string first, string second )
 {
     string result;  // To store the sum bits
